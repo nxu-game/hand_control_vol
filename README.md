@@ -1,16 +1,19 @@
-# 手势控制音量系统
+# Hand Gesture Volume Control
 
-这是一个基于计算机视觉的手势控制音量系统，使用 MediaPipe 进行手势识别和人脸检测，通过手势来控制系统音量。
+A computer vision-based system that uses hand gestures to control system volume, featuring MediaPipe for hand gesture recognition and face detection.
 
-## 功能特点
+![Hand Gesture Volume Control Demo](hand_vol.png)
 
-- 实时手势识别
-- 人脸检测和遮罩
-- 音量平滑控制
-- 可视化音量显示
-- 实时 FPS 显示
+## Features
 
-## 环境要求
+- Real-time hand gesture recognition
+- Face detection and masking
+- Smooth volume control
+- Visual volume display
+- Real-time FPS counter
+- Privacy protection with face masking
+
+## Requirements
 
 - Python 3.7+
 - OpenCV
@@ -18,41 +21,48 @@
 - pycaw
 - numpy
 
-## 安装
+## Installation
 
-1. 克隆仓库：
+1. Clone the repository:
 ```bash
 git clone <repository-url>
 cd hand_control
 ```
 
-2. 安装依赖：
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## 使用方法
+## Usage
 
-运行主程序：
+Run the main program:
 ```bash
 python hand_control_volume.py
 ```
 
-## 控制说明
+## Controls
 
-- 使用大拇指和食指的距离来控制音量
-- 距离越大，音量越大
-- 按 ESC 键退出程序
+- Use the distance between your thumb and index finger to control volume
+- Increase distance to increase volume
+- Decrease distance to decrease volume
+- Press ESC to exit
 
-## 参数调整
+## Configuration
 
-可以在 `HandControlVolume` 类的 `__init__` 方法中调整以下参数：
+You can adjust the following parameters in the `HandControlVolume` class `__init__` method:
 
-- `face_mask_color`: 人脸遮罩颜色
-- `face_mask_alpha`: 人脸遮罩透明度
-- `gesture_threshold`: 手势检测阈值
-- `smooth_factor`: 音量平滑因子
+- `face_mask_color`: Color of the face mask
+- `face_mask_alpha`: Face mask transparency
+- `gesture_threshold`: Hand gesture detection threshold
+- `smooth_factor`: Volume smoothing factor
 
-## 许可证
+## Privacy Features
+
+- Automatic face detection and masking
+- Configurable mask color and transparency
+- Real-time face tracking
+
+## License
 
 MIT License 
