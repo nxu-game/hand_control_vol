@@ -2,7 +2,7 @@
 
 A computer vision-based system that uses hand gestures to control system volume, featuring MediaPipe for hand gesture recognition and face detection.
 
-![Hand Gesture Volume Control Demo](hand_vol.png)
+![Hand Gesture Volume Control Demo](https://github.com/wangqiqi/interesting_assets/raw/main/images/hand_vol.png)
 
 ## Features
 
