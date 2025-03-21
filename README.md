@@ -63,6 +63,14 @@ You can adjust the following parameters in the `HandControlVolume` class `__init
 - Configurable mask color and transparency
 - Real-time face tracking
 
+## Contact
+
+If you have any questions or suggestions, feel free to contact me:
+
+- WeChat: znzatop
+
+![WeChat](https://github.com/wangqiqi/interesting_assets/blob/main/images/wechat.jpg)
+
 ## License
 
 MIT License 
